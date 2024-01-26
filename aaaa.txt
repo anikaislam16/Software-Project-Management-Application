@@ -1,0 +1,28 @@
+               <SprintBoard
+                key={item.id}
+                id={item.id}
+                name={item.boardName}
+                card={item.card}
+                setName={setName}
+                addCard={addCard}
+                removeCard={removeCard}
+                removeBoard={removeBoard}
+                updateCard={updateCard}
+              />
+            <SprintEditable
+              class={"add__board"}
+              name={"Create Sprint"}
+              btnName={"Create"}
+              onSubmit={addBoard}
+              placeholder={"Enter Sprint  Title"}
+            />
+            <SprintBoard
+              key={1}
+              id={1}
+              name={"Backlog"}
+              setName={setName}
+              addCard={addCard}
+              removeCard={removeCard}
+              removeBoard={removeBoard}
+              updateCard={updateCard}
+            />

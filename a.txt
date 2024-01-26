@@ -1,0 +1,16 @@
+This is my final year project. I am implementing the practices that are performed in Kanban, Scrum and Test Driven Development. 
+Scrum:
+Implemented Product Backlog and Sprint Board functionalities.
+Users can attach files to tasks, add subtasks, assign labels, set dates, and define priorities.
+Capabilities to update and delete fields are incorporated.
+In progress: Developing graphical representations for better visualization and decision-making.
+
+Kanban:
+
+Implemented Kanban Boards with features similar to Scrum, allowing file attachments, subtasks, labels, dates, and priorities.
+Users can update and delete fields.
+In progress: Developing graphs for enhanced visualization and decision-making.
+
+Test Driven Development (TDD):
+
+Yet to be implemented. Planning and development for TDD practices are pending.
